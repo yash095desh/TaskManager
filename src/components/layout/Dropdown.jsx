@@ -8,7 +8,7 @@ function Dropdown({ children, name, link }) {
   const [isopen, setOpen] = useState(false);
 
   return (
-    <div className="flex flex-col gap-4 items-start">
+    <div className="flex flex-col gap-4 items-start ">
       <div className="flex gap-2 items-center">
         <Link href={`${link}`}>{name}</Link>
         {children?.length && (
